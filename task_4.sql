@@ -5,7 +5,7 @@ FROM
     INFORMATION_SCHEMA.COLUMNS
 WHERE 
     TABLE_NAME = 'Books' 
-    AND TABLE_SCHEMA = alx_book_store();
+    AND "TABLE_SCHEMA = 'alx_book_store'"
 
 -- CREATE TABLE Books(
     book_id INT AUTO_INCREMENT PRIMARY KEY,
